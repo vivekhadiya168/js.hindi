@@ -40,3 +40,27 @@
 
 // non-primitive no data type object j aave.
 
+// ======================================================
+// ============ Memory===============
+
+// Stack (primitive ), Heap(non- Primitive)
+
+let myYoutubeName = "vivek.com"
+
+let anotherName = myYoutubeName
+anotherName = "vhadiya"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "vivek@gmail.com",
+    upi: "vivek@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "v@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
