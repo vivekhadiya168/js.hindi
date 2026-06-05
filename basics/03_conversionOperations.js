@@ -52,7 +52,7 @@ let negValue = -value
 // console.log("1" + 2);
 // console.log(1 + 2 + "2");
 
-// console.log(+true);
+// console.log(+false);
 // console.log(+"");
 
 // let num1, num2, num3
@@ -68,9 +68,9 @@ let negValue = -value
 // console.log(m1, m2)
 
 // prefix
-let m1 = 4
-let m2 = ++m1
-console.log(m1, m2)
+// let m1 = 4
+// let m2 = ++m1
+// console.log(m1, m2)
 
 
 
