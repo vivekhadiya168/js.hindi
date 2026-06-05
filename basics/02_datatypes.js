@@ -21,7 +21,11 @@
  // object
 
 
- console.log(typeof age);
- console.log(typeof null); // output object aavse
- console.log(typeof undefined); // output undefined aavse
+ console.log(typeof age);        // number
+ console.log(typeof null);       // output object aavse
+ console.log(typeof undefined);  // output undefined aavse
+ console.log(typeof String);      // string
+ console.log(typeof Boolean);     // boolean
+ console.log(typeof Object);      // object
+ console.log(typeof Function);    // object function
  
