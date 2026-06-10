@@ -45,8 +45,31 @@ const users = [
 // console.log(users[1].email)
 // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));       // perticular object ni keys find karva
-console.log(Object.values(tinderUser));     // perticular object ni values find karva
-console.log(Object.entries(tinderUser));    // entries mate. (ex : ["keys" , "values"] aa rite print tashe )
+// console.log(Object.keys(tinderUser));       // perticular object ni keys find karva
+// console.log(Object.values(tinderUser));     // perticular object ni values find karva
+// console.log(Object.entries(tinderUser));    // entries mate. (ex : ["keys" , "values"] aa rite print tashe )
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));   // aa property che ke nai check karva. boolean ma ans aapse.
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));   // aa property che ke nai check karva. boolean ma ans aapse.
+
+//================= Object destructuring ==============
+
+const course = {
+    name: "js in hindi",
+    price: "999",
+    instructor: "hitesh sir"
+}
+
+// console.log(course.instructor);
+
+const {instructor: ins} = course   // aapde vare vare course.instructor na lakhvu pade. direct define kari shakiye ne instructor ne ins thi pan access kari shakiye
+console.log(ins);
+// means aapde course.instructor ni jagya e khali ins j lakhvanu
+// destructuring concept no use react ma thase
+
+//+++++++++++++++++ API ++++++++++++++
+
+// {                        
+//     "name": "vivek",                  // format of json. {} ni andar lakhay
+//     "course": "js in hindi",          // json ma string ni andar j key and values define karvani
+//     "price": "free"
+// }
